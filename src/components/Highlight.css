@@ -1,0 +1,51 @@
+.high-container{
+    background: white;
+    color: black;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.high-text{
+   margin: 0;
+   margin-left: 200px;
+}
+
+.high-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+.high-text h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.high-header h2{
+    margin-left: 250px;
+}
+
+.online-menu-btn{
+    margin-top: 15px;
+    margin-right: 350px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    height: 45px;
+    background-color: #f4ce14;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.high-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.order-btn{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}

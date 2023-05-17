@@ -1,0 +1,40 @@
+nav {
+    background-color: #ffffff;
+    color: #000000;
+    /* display: grid;
+    grid-template-columns: 200px 1fr;  just in case of logo at the top left corner*/
+  }
+  .nav-items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0 10px;
+    padding: 1.5%;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .logo {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-container img{
+    height: 60px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    
+  }

@@ -1,0 +1,50 @@
+.hero-container{
+    background: linear-gradient(to bottom, #264f2a 90%, #fff 10%);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.hero-text{
+    margin-left: 250px;
+    margin-bottom: 10px;
+    padding: 1%;
+}
+
+.hero-text h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #fff;
+}
+
+.hero-text h5{
+    display: flex;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.hero-text p {
+    text-align: left;
+    font-size: 13px;
+    color: #fff;
+}
+
+.food-container img{
+    height: 180px;
+    margin-top: 10px;
+    margin-right: 350px;
+    width: 150px;
+    border-radius: 15%;
+}
+
+.reserve-btn{
+    background-color:#f4ce14;
+    border-radius: 10px;
+    width: fit-content;
+    height: 30px;
+    align-items: center;
+    margin-bottom: 1%;
+    margin-right: 380px;
+}
